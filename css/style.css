@@ -32,6 +32,7 @@ main {
 .container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .robotron {
@@ -107,15 +108,15 @@ main {
 .trocaRobo {
     margin: 1em 0.5em;
     font-size: 1.5em;
-    width: 70px;
+    height: 50px;
     text-transform: uppercase;
-    padding: 0.02em 0.2em;
+    padding: 0 0.2em 0.5em 0.2em;
     float: right;
     border: 3px solid var(--main-branco);
     background: var(--main-branco);
     clip-path: polygon(100% 0, 100% calc(100% - 30px), calc(100% - 30px) 100%, 0 100%, 0 0);
     cursor: pointer;
-    text-align: center;
+    text-align: left;
 }
 .trocaRobo:hover {
     background: var(--main-preto);
